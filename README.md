@@ -123,4 +123,4 @@
       <li></li><br>
       <li></li><br>
 </ol>
-<a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0" target="_blank" rel="noopener noreferrer">Referências: Curso Em Vídeo</a>
+<a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0/" target="_blank" rel="noopener noreferrer">Referências: Curso Em Vídeo</a>
