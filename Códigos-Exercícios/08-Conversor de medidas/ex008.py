@@ -1,3 +1,4 @@
+#Conversão de medidas
 medida = float(input('Uma distância em metros: '))
 km = medida / 1000
 cm = medida * 100
