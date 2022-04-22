@@ -1,3 +1,3 @@
-#Esta função lê a entrada que o usuário digitou e armazena o valor em uma variável(nome).
+# Esta função lê a entrada que o usuário digitou e armazena o valor em uma variável(nome).
 nome = input('Digite seu nome: ')
-print('É um prazer te conhecer {}'.format(nome))
+print(f'É um prazer te conhecer \033[4;31m{nome.upper()}\033[m')

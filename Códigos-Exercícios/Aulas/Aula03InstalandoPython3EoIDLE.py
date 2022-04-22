@@ -1,0 +1,1 @@
+#  instalação do Python 3.0 e o IDLE em seu computador com Windows, Linux ou Mac OS.
