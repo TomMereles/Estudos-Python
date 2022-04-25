@@ -1,6 +1,8 @@
 frase = str(input('Digite uma frase: ')).strip().upper()
-print('A letra {} apareceu {} vezes na frase.'.format(
-    frase[0], frase.count('A')))
-print('A primeira letra {} apareceu na posição {}'.format(
-    frase[0], frase.find('A')))
-print('O ultimo {} aparece na posição {}.'.format(frase[0], frase.rfind('A')))
+vezes = frase.count('A')
+# Acrescentei + 1 para melhor visualização do usuário.
+primeira = frase.find('A') + 1
+ultima = frase.rfind('A')
+print(f'A letra {frase[0]} apareceu {vezes} vezes na frase.')
+print(f'A primeira letra {frase[0]} apareceu na posição {primeira}')
+print(f'O ultimo {frase[0]} aparece na posição {ultima}.')

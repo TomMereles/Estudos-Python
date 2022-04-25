@@ -1,5 +1,5 @@
-#Cálculo de valores utilizando aritmética com formatação do resultado.
+# Cálculo de valores utilizando aritmética com formatação do resultado.
 n = int(input('Digite um número: '))
-print('O dobro de {} vale {} '.format(n, (n * 2)))
-print('O triplo de {} vale {} '.format(n, (n * 3)))
-print('A raiz quadra de {} é igual a {:.2f} '.format(n, (n ** (1/2))))
+print(f'O dobro de {n} vale {n*2} ')
+print(f'O triplo de {n} vale {n*3} ')
+print(f'A raiz quadra de {n} é igual a {(n**(1/2)):.2f} ')

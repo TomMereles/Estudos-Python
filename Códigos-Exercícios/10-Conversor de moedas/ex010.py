@@ -1,3 +1,3 @@
-real = float(input('Quanto de dinheiro você tem na carteira? R$'))
+real = float(input('\033[1mQuanto de dinheiro você tem na carteira? R$\033[m'))
 dolar = real / 3.27
-print('Com R${:.2f} você pode comprar US${:.2f}'.format(real, dolar))
+print(f'Com\033[1;32m R${real:.2f}\033[m você pode comprar\033[1;32m US${dolar:.2f}\033[m!')

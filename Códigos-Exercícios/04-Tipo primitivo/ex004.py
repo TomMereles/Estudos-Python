@@ -1,6 +1,6 @@
 #Demonstrando funções de tipos primitivos.
-a = input('Digite algo: ')
-print('O tipo primitivo desse valor é ', type(a))
+a = input('\033[7;31;47mDigite algo: ')
+print('\033[mO tipo primitivo desse valor é ', type(a))
 print('Só tem espaços? ', a.isspace())
 print('É um número? ', a.isnumeric())
 print('É alfabético? ', a.isalpha())
