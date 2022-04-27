@@ -6,5 +6,5 @@ if média >= 6:
     print('O aluno está \033[1;32mAPROVADO\033[m.')
 elif média < 5:
     print('O aluno está \033[1;31mREPROVADO\033[m. ')
-else:
+elif 6 > média >= 5:
     print('O aluno está em \033[1;35mRECUPERAÇÃO\033[m.')
